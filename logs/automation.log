@@ -39,3 +39,18 @@
 18:30:57.517 [main] INFO  api.test.StoreTests2 - ***** Order fetched *****
 18:30:57.530 [main] INFO  api.test.StoreTests2 - ***** Deleting Order *****
 18:30:59.018 [main] INFO  api.test.StoreTests2 - ***** Order deleted *****
+19:15:10.444 [main] INFO  api.test.StoreTests2 - ***** Creating Order *****
+19:15:15.729 [main] INFO  api.test.StoreTests2 - ***** Order is placed *****
+19:15:15.755 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+19:15:17.285 [main] INFO  api.test.StoreTests2 - ***** Order fetched *****
+19:15:17.295 [main] INFO  api.test.StoreTests2 - ***** Deleting Order *****
+19:32:21.229 [main] INFO  api.test.StoreTests1 - ***** Creating Order *****
+19:32:26.432 [main] INFO  api.test.StoreTests1 - ***** Order is placed *****
+19:32:26.457 [main] INFO  api.test.StoreTests1 - ***** Fetching Order *****
+19:32:27.924 [main] INFO  api.test.StoreTests1 - ***** Deleting Order *****
+19:34:16.058 [main] INFO  api.test.StoreTests1 - ***** Creating Order *****
+19:34:21.487 [main] INFO  api.test.StoreTests1 - ***** Order is placed *****
+19:34:21.512 [main] INFO  api.test.StoreTests1 - ***** Fetching Order *****
+19:34:23.070 [main] INFO  api.test.StoreTests1 - ***** Order fetched *****
+19:34:23.081 [main] INFO  api.test.StoreTests1 - ***** Deleting Order *****
+19:34:24.388 [main] INFO  api.test.StoreTests1 - ***** Order deleted *****

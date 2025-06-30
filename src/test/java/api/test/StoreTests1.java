@@ -38,7 +38,7 @@ public class StoreTests1 {
 	}
 	
 	@Test(priority= 1)
-	public void testPotsStore() {
+	public void testPostStore() {
 		
 		logger.info("***** Creating Order *****");
 		Response response= StoreEndpoints1.placeOrder(storePayload);

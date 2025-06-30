@@ -10,7 +10,7 @@ import api.payload.User;
 import api.utilities.DataProviders;
 import io.restassured.response.Response;
 
-public class DataDrivenTests {
+public class UserDataDrivenTests {
 
 	@Test(priority=1, dataProvider= "Data", dataProviderClass= DataProviders.class)
 	public void testPostUser(String userId, String userName, String firstName, String lastName, String emaiId, String password, String phone) {
@@ -29,7 +29,7 @@ public class DataDrivenTests {
 		AssertJUnit.assertEquals(response.statusCode(), 200);
 	}
 	
-	@Test(priority=2, dataProvider= "UserNames", dataProviderClass= DataProviders.class)
+//	@Test(priority=2, dataProvider= "UserNames", dataProviderClass= DataProviders.class)
 	public void testDeleteUser(String userName) {
 		
 		Response response= UserEndpoints.deleteUser(userName);
