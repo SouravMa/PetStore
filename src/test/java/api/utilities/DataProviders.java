@@ -48,5 +48,18 @@ public class DataProviders {
 			 }
 			 return apiData;
 		 }
+	 
+	 @DataProvider(name= "OrderId")
+		 public String[] getIds() throws IOException {
+			 String path= System.getProperty("user.dir")+"//testData//Storedata.xlsx";
+			 XLUtility xlUtil= new XLUtility(path);
+			 int totalRows= xlUtil.getRowCount("Sheet1");
+			 String apiData[]=  new String[totalRows];
+			 for(int i=1; i<=totalRows; i++){	          
+		            apiData[i-1]=xlUtil.getCellData("Sheet1", i, 0);
+		          
+		        }
+		     return apiData;
+		 }
 
 }

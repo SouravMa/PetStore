@@ -1,5 +1,6 @@
 package api.test;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import api.endpoints.StoreEndpoints1;
@@ -22,6 +23,28 @@ public class StoreDataDrivenTests {
 		
 		Response response= StoreEndpoints1.placeOrder(storePayload);
 		response.then().log().all();
+		
+		Assert.assertEquals(response.statusCode(), 200);
+		
+	}
+	
+	@Test(priority=2, dataProvider="OrderId", dataProviderClass=DataProviders.class)
+	public void testGetOrderById(String id) {
+		
+		Response response= StoreEndpoints1.getOrder(Integer.parseInt(id));
+		response.then().log().all();
+		
+		Assert.assertEquals(response.statusCode(), 200);
+		
+	}
+	
+	@Test(priority=2, dataProvider="OrderId", dataProviderClass=DataProviders.class)
+	public void testDeleteOrder(String id) {
+		
+		Response response= StoreEndpoints1.deleteOrder(Integer.parseInt(id));
+		response.then().log().all();
+		
+		Assert.assertEquals(response.statusCode(), 200);
 		
 	}
 	
