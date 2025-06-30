@@ -1,81 +1,41 @@
-20:11:23.108 [main] INFO  api.test.UserTests - ***** Creating User *****
-20:11:28.535 [main] INFO  api.test.UserTests - ***** User is created *****
-20:11:28.572 [main] INFO  api.test.UserTests - ***** Updating User *****
-20:11:30.015 [main] INFO  api.test.UserTests - ***** User updated successfully *****
-20:11:30.038 [main] INFO  api.test.UserTests - ***** Deleting User *****
-20:11:31.468 [main] INFO  api.test.UserTests - ***** User deleted successfully *****
-00:54:26.859 [main] INFO  api.test.UserTests2 - ***** Creating User *****
-00:54:28.177 [main] INFO  api.test.UserTests2 - ***** Reading User  Info*****
-00:54:28.207 [main] INFO  api.test.UserTests2 - ***** Updating User *****
-00:54:28.310 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
-00:55:51.677 [main] INFO  api.test.UserTests - ***** Creating User *****
-00:55:57.289 [main] INFO  api.test.UserTests - ***** User is created *****
-00:55:57.318 [main] INFO  api.test.UserTests - ***** Updating User *****
-00:55:58.844 [main] INFO  api.test.UserTests - ***** User updated successfully *****
-00:55:58.861 [main] INFO  api.test.UserTests - ***** Deleting User *****
-00:56:00.142 [main] INFO  api.test.UserTests - ***** User deleted successfully *****
-00:56:13.150 [main] INFO  api.test.UserTests2 - ***** Creating User *****
-00:56:14.549 [main] INFO  api.test.UserTests2 - ***** Reading User  Info*****
-00:56:14.574 [main] INFO  api.test.UserTests2 - ***** Updating User *****
-00:56:14.658 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
-00:58:39.773 [main] INFO  api.test.UserTests - ***** Creating User *****
-00:58:45.120 [main] INFO  api.test.UserTests - ***** User is created *****
-00:58:45.150 [main] INFO  api.test.UserTests - ***** Updating User *****
-00:58:46.805 [main] INFO  api.test.UserTests - ***** User updated successfully *****
-00:58:46.823 [main] INFO  api.test.UserTests - ***** Deleting User *****
-00:58:48.196 [main] INFO  api.test.UserTests - ***** User deleted successfully *****
-00:59:42.764 [main] INFO  api.test.UserTests - ***** Creating User *****
-00:59:47.920 [main] INFO  api.test.UserTests - ***** User is created *****
-00:59:47.952 [main] INFO  api.test.UserTests - ***** Reading User  Info*****
-00:59:49.450 [main] INFO  api.test.UserTests - ***** User info fetched successfully *****
-00:59:49.464 [main] INFO  api.test.UserTests - ***** Updating User *****
-00:59:50.839 [main] INFO  api.test.UserTests - ***** User updated successfully *****
-00:59:50.849 [main] INFO  api.test.UserTests - ***** Deleting User *****
-00:59:52.217 [main] INFO  api.test.UserTests - ***** User deleted successfully *****
-01:02:06.747 [main] INFO  api.test.UserTests - ***** Creating User *****
-01:02:11.894 [main] INFO  api.test.UserTests - ***** User is created *****
-01:02:11.925 [main] INFO  api.test.UserTests - ***** Reading User  Info*****
-01:02:13.465 [main] INFO  api.test.UserTests - ***** Updating User *****
-01:02:15.042 [main] INFO  api.test.UserTests - ***** User updated successfully *****
-01:02:16.427 [main] INFO  api.test.UserTests - ***** Deleting User *****
-01:02:17.801 [main] INFO  api.test.UserTests - ***** User deleted successfully *****
-01:06:20.380 [main] INFO  api.test.UserTests2 - ***** Creating User *****
-01:06:25.496 [main] INFO  api.test.UserTests2 - ***** User is created *****
-01:06:25.526 [main] INFO  api.test.UserTests2 - ***** Reading User  Info*****
-01:06:26.965 [main] INFO  api.test.UserTests2 - ***** Updating User *****
-01:06:28.402 [main] INFO  api.test.UserTests2 - ***** User updated successfully *****
-01:06:29.869 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
-01:06:31.125 [main] INFO  api.test.UserTests2 - ***** User deleted successfully *****
-01:06:58.849 [main] INFO  api.test.UserTests2 - ***** Creating User *****
-01:07:03.994 [main] INFO  api.test.UserTests2 - ***** User is created *****
-01:07:04.029 [main] INFO  api.test.UserTests2 - ***** Reading User  Info*****
-01:07:05.491 [main] INFO  api.test.UserTests2 - ***** User info fetched successfully *****
-01:07:05.508 [main] INFO  api.test.UserTests2 - ***** Updating User *****
-01:07:07.075 [main] INFO  api.test.UserTests2 - ***** User updated successfully *****
-01:07:07.086 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
-01:07:08.611 [main] INFO  api.test.UserTests2 - ***** User deleted successfully *****
-02:10:47.219 [main] INFO  api.test.UserTests2 - ***** Creating User *****
-02:10:51.100 [main] INFO  api.test.UserTests2 - ***** Reading User  Info*****
-02:10:51.540 [main] INFO  api.test.UserTests2 - ***** Updating User *****
-02:10:51.859 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
-02:11:28.170 [main] INFO  api.test.UserTests2 - ***** Creating User *****
-02:11:33.230 [main] INFO  api.test.UserTests2 - ***** User is created *****
-02:11:33.259 [main] INFO  api.test.UserTests2 - ***** Reading User  Info*****
-02:11:34.722 [main] INFO  api.test.UserTests2 - ***** Updating User *****
-02:11:36.204 [main] INFO  api.test.UserTests2 - ***** User updated successfully *****
-02:11:36.212 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
-02:11:37.601 [main] INFO  api.test.UserTests2 - ***** User deleted successfully *****
-02:51:22.826 [main] INFO  api.test.UserTests2 - ***** Creating User *****
-02:51:27.648 [main] INFO  api.test.UserTests2 - ***** User is created *****
-02:51:27.674 [main] INFO  api.test.UserTests2 - ***** Reading User Info*****
-02:51:29.076 [main] INFO  api.test.UserTests2 - ***** User info fetched successfully *****
-02:51:29.084 [main] INFO  api.test.UserTests2 - ***** Updating User *****
-02:51:30.475 [main] INFO  api.test.UserTests2 - ***** User updated successfully *****
-02:51:30.484 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
-15:28:24.628 [main] INFO  api.test.UserTests2 - ***** Creating User *****
-15:28:29.430 [main] INFO  api.test.UserTests2 - ***** User is created *****
-15:28:29.455 [main] INFO  api.test.UserTests2 - ***** Reading User Info*****
-15:28:30.940 [main] INFO  api.test.UserTests2 - ***** Updating User *****
-15:28:32.316 [main] INFO  api.test.UserTests2 - ***** User updated successfully *****
-15:28:32.324 [main] INFO  api.test.UserTests2 - ***** Deleting User *****
-15:28:33.617 [main] INFO  api.test.UserTests2 - ***** User deleted successfully *****
+18:15:52.631 [main] INFO  api.test.StoreTests1 - ***** Order is placed *****
+18:15:52.662 [main] INFO  api.test.StoreTests1 - ***** Fetching Order *****
+18:15:54.267 [main] INFO  api.test.StoreTests1 - ***** Order fetched *****
+18:15:54.277 [main] INFO  api.test.StoreTests1 - ***** Deleting Order *****
+18:15:55.828 [main] INFO  api.test.StoreTests1 - ***** Order deleted *****
+18:17:21.158 [main] INFO  api.test.StoreTests2 - ***** Creating Order *****
+18:17:26.431 [main] INFO  api.test.StoreTests2 - ***** Order is placed *****
+18:17:26.459 [main] INFO  api.test.StoreTests2 - ***** Deleting Order *****
+18:17:52.217 [main] INFO  api.test.StoreTests2 - ***** Creating Order *****
+18:17:57.300 [main] INFO  api.test.StoreTests2 - ***** Order is placed *****
+18:17:57.329 [main] INFO  api.test.StoreTests2 - ***** Deleting Order *****
+18:17:58.948 [main] INFO  api.test.StoreTests2 - ***** Order deleted *****
+18:18:14.162 [main] INFO  api.test.StoreTests2 - ***** Creating Order *****
+18:18:19.370 [main] INFO  api.test.StoreTests2 - ***** Order is placed *****
+18:18:19.398 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+18:18:19.504 [main] INFO  api.test.StoreTests2 - ***** Deleting Order *****
+18:18:20.929 [main] INFO  api.test.StoreTests2 - ***** Order deleted *****
+18:19:00.987 [main] INFO  api.test.StoreTests2 - ***** Creating Order *****
+18:19:06.168 [main] INFO  api.test.StoreTests2 - ***** Order is placed *****
+18:19:06.197 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+18:19:06.301 [main] INFO  api.test.StoreTests2 - ***** Deleting Order *****
+18:20:20.109 [main] INFO  api.test.StoreTests2 - ***** Creating Order *****
+18:20:25.350 [main] INFO  api.test.StoreTests2 - ***** Order is placed *****
+18:20:25.378 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+18:20:25.486 [main] INFO  api.test.StoreTests2 - ***** Deleting Order *****
+18:20:26.970 [main] INFO  api.test.StoreTests2 - ***** Order deleted *****
+18:24:05.811 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+18:27:25.620 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+18:27:41.388 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+18:28:41.625 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+18:29:08.490 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+18:30:24.999 [main] INFO  api.test.StoreTests2 - ***** Creating Order *****
+18:30:30.105 [main] INFO  api.test.StoreTests2 - ***** Order is placed *****
+18:30:30.134 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+18:30:31.563 [main] INFO  api.test.StoreTests2 - ***** Deleting Order *****
+18:30:50.872 [main] INFO  api.test.StoreTests2 - ***** Creating Order *****
+18:30:56.021 [main] INFO  api.test.StoreTests2 - ***** Order is placed *****
+18:30:56.049 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+18:30:57.517 [main] INFO  api.test.StoreTests2 - ***** Order fetched *****
+18:30:57.530 [main] INFO  api.test.StoreTests2 - ***** Deleting Order *****
+18:30:59.018 [main] INFO  api.test.StoreTests2 - ***** Order deleted *****
