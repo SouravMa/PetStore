@@ -24,6 +24,17 @@ public class StoreEndpoints1 {
 		
 	}
 	
+	public static Response getStoreInventory() {
+		
+		Response response= 
+				given()
+					.accept(ContentType.JSON)
+				.when()
+					.get(Routes.getUrlStoreInventory);
+		return response;
+		
+	}
+	
 	public static Response getOrder(int orderId) {
 		
 		Response response=

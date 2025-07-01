@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
-import api.endpoints.Routes;
 import api.endpoints.StoreEndpoints1;
 import api.payload.Store;
 import io.restassured.response.Response;
@@ -54,7 +53,7 @@ public class StoreTests1 {
 		
 		logger.info("***** Fetching Order *****");
 		Response response= StoreEndpoints1.getOrder(this.storePayload.getId());
-//		System.out.println(this.storePayload.getId());
+		System.out.println(this.storePayload.getId());
 		response.then().log().all();
 		
 		Assert.assertEquals(response.statusCode(), 200);
@@ -63,11 +62,23 @@ public class StoreTests1 {
 	}
 	
 	@Test(priority= 3)
+	public void testGetStoreInventory() {
+		
+		logger.info("***** Fetching pet inventory *****");
+		Response response= StoreEndpoints1.getStoreInventory();
+		response.then().log().all();
+		
+		Assert.assertEquals(response.statusCode(), 200);
+		logger.info("***** Pet inventory fetched *****");
+		
+	}
+	
+	@Test(priority= 4)
 	public void testDeleteOrderByOrderId() {
 		
 		logger.info("***** Deleting Order *****");
 		Response response= StoreEndpoints1.deleteOrder(this.storePayload.getId());
-//		System.out.println(this.storePayload.getId());
+		System.out.println(this.storePayload.getId());
 		response.then().log().all();
 		
 		Assert.assertEquals(response.statusCode(), 200);

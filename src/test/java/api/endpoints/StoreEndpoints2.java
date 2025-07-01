@@ -34,6 +34,20 @@ public class StoreEndpoints2 {
 		
 	}
 	
+	public static Response getStoreInventory() {
+		
+		String getUrlStoreInventory= getUrl().getString("getUrlStoreInventory");
+		
+		Response response=
+				given()
+					.accept(ContentType.JSON)
+				.when()
+					.get(getUrlStoreInventory);
+		
+		return response;
+		
+	}
+	
 	public static Response getOrder(int orderId) {
 		
 		String getUrlStore= getUrl().getString("getUrlStore");
