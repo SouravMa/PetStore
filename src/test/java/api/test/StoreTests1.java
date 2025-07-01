@@ -10,6 +10,7 @@ import com.github.javafaker.Faker;
 
 import api.endpoints.StoreEndpoints1;
 import api.payload.Store;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 
 public class StoreTests1 {
@@ -43,8 +44,10 @@ public class StoreTests1 {
 		Response response= StoreEndpoints1.placeOrder(storePayload);
 		response.then().log().all();
 		
+		response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("StoreOrderPostJSONSchema.json"));
 		Assert.assertEquals(response.statusCode(), 200);
 		Assert.assertEquals(response.body().jsonPath().get("status"), "placed");
+		
 		logger.info("***** Order is placed *****");
 	}
 	
@@ -82,7 +85,7 @@ public class StoreTests1 {
 		response.then().log().all();
 		
 		Assert.assertEquals(response.statusCode(), 200);
-		Assert.assertEquals(response.body().jsonPath().get("message"), String.valueOf(this.storePayload.getId()));
+		Assert.assertEquals(response.body().jsonPath().get("message"), String.valueOf(storePayload.getId()));
 		logger.info("***** Order deleted *****");
 	}
 	

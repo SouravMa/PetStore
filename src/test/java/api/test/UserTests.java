@@ -11,6 +11,7 @@ import com.github.javafaker.Faker;
 
 import api.endpoints.UserEndpoints;
 import api.payload.User;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 
 public class UserTests {
@@ -57,6 +58,7 @@ public class UserTests {
 		System.out.println(this.userPayload.getUsername());
 		response.then().log().all();
 		
+		response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("GetUserByIdJSONSchema.json"));
 		Assert.assertEquals(response.statusCode(), 200);
 		logger.info("***** User info fetched successfully *****");
 	}
@@ -67,7 +69,7 @@ public class UserTests {
 		logger.info("***** Updating User *****");
 		faker= new Faker();
 		
-		userPayload.setUsername(faker.name().firstName());	
+		userPayload.setUsername(faker.name().username());	
 		
 		Response response= UserEndpoints.updateUser(userPayload, this.userPayload.getUsername());
 		System.out.println(this.userPayload.getUsername());

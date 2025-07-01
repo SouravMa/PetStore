@@ -1,0 +1,40 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome3",
+    "definitions": {
+        "Welcome3": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "username": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "phone": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "userStatus": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "email",
+                "id",
+                "password",
+                "phone",
+                "userStatus",
+                "username"
+            ],
+            "title": "Welcome3"
+        }
+    }
+}

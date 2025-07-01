@@ -2,12 +2,9 @@ package api.test;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
-import org.testng.AssertJUnit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
@@ -46,8 +43,8 @@ public class UserTests2 {
 		Response response= UserEndpoints2.createUser(userPayload);
 		response.then().log().all();
 		
-		AssertJUnit.assertEquals(response.statusCode(), 200);
-		AssertJUnit.assertEquals(response.body().jsonPath().get("type"), "unknown");
+		Assert.assertEquals(response.statusCode(), 200);
+		Assert.assertEquals(response.body().jsonPath().get("type"), "unknown");
 		logger.info("***** User is created *****");
 	}
 
@@ -56,9 +53,10 @@ public class UserTests2 {
 		
 		logger.info("***** Reading User Info*****");
 		Response response= UserEndpoints2.getUser(this.userPayload.getUsername());
+		System.out.println(this.userPayload.getUsername());
 		response.then().log().all();
 		
-		AssertJUnit.assertEquals(response.statusCode(), 200);
+		Assert.assertEquals(response.statusCode(), 200);
 		logger.info("***** User info fetched successfully *****");
 	}
 	
@@ -67,20 +65,20 @@ public class UserTests2 {
 		
 		logger.info("***** Updating User *****");
 		faker= new Faker();
-		userPayload.setFirstname(faker.name().firstName());
-		userPayload.setLastname(faker.name().lastName());
-		userPayload.setEmail(faker.internet().safeEmailAddress());		
+		userPayload.setUsername(faker.name().username());	
 		
 		Response response= UserEndpoints2.updateUser(userPayload, this.userPayload.getUsername());
+		System.out.println(this.userPayload.getUsername());
 		response.then().log().all();
 		
-		AssertJUnit.assertEquals(response.statusCode(), 200);
+		Assert.assertEquals(response.statusCode(), 200);
 		logger.info("***** User updated successfully *****");
 		
 		//checking body after update
-//		Response responseAfterUpdate= UserEndpoints2.getUser(this.userPayload.getUsername());
-//		responseAfterUpdate.then().log().body();		
-//		AssertJUnit.assertEquals(responseAfterUpdate.statusCode(), 200);
+		Response responseAfterUpdate= UserEndpoints2.getUser(this.userPayload.getUsername());
+		System.out.println(this.userPayload.getUsername());
+		responseAfterUpdate.then().log().body();		
+		Assert.assertEquals(responseAfterUpdate.statusCode(), 200);
 	}
 	
 	@Test(priority= 4)
@@ -90,7 +88,7 @@ public class UserTests2 {
 		Response response= UserEndpoints2.deleteUser(this.userPayload.getUsername());
 		response.then().log().all();
 	
-		AssertJUnit.assertEquals(response.statusCode(), 200);
+		Assert.assertEquals(response.statusCode(), 200);
 		logger.info("***** User deleted successfully *****");
 	}
 }
