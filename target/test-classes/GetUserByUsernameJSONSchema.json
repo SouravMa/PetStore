@@ -1,8 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-06/schema#",
-    "$ref": "#/definitions/Welcome3",
+    "$ref": "#/definitions/Welcome4",
     "definitions": {
-        "Welcome3": {
+        "Welcome4": {
             "type": "object",
             "additionalProperties": false,
             "properties": {
@@ -19,8 +19,7 @@
                     "type": "string"
                 },
                 "phone": {
-                    "type": "string",
-                    "format": "integer"
+                    "type": "string"
                 },
                 "userStatus": {
                     "type": "integer"
@@ -34,7 +33,7 @@
                 "userStatus",
                 "username"
             ],
-            "title": "Welcome3"
+            "title": "Welcome4"
         }
     }
 }

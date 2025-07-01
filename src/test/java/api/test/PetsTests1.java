@@ -82,7 +82,7 @@ public class PetsTests1 {
 		
 	}
 	
-//	@Test(priority= 3)
+	@Test(priority= 3)
 	public void deletePetById() {
 		
 		logger.info("***** Deleting pet details by id *****");
