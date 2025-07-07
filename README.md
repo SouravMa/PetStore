@@ -17,6 +17,9 @@ It covers core CRUD operations on '/pet', '/store' and '/user' endpoints with st
 
 **Project Structure**:
 
+<img width="390" alt="Screenshot 2025-07-08 at 12 42 57 AM" src="https://github.com/user-attachments/assets/74430c02-d171-491b-828e-50aab1a7f367" />
+<img width="385" alt="Screenshot 2025-07-08 at 12 43 10 AM" src="https://github.com/user-attachments/assets/92e7aec6-a493-4cd7-b47b-0cf41ea6d775" />
+
 **Prerequisites**:
 . Java 11 or later
 . Maven 3.6 or later
