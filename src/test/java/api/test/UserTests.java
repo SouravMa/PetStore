@@ -72,7 +72,7 @@ public class UserTests {
 		userPayload.setUsername(faker.name().username());	
 		
 		Response response= UserEndpoints.updateUser(userPayload, this.userPayload.getUsername());
-//		System.out.println(this.userPayload.getUsername());
+		System.out.println(this.userPayload.getUsername());
 		response.then().log().all();
 		
 		Assert.assertEquals(response.statusCode(), 200);
@@ -90,7 +90,7 @@ public class UserTests {
 		
 		logger.info("***** Deleting User *****");
 		Response response= UserEndpoints.deleteUser(this.userPayload.getUsername());
-//		System.out.println(this.userPayload.getUsername());
+		System.out.println(this.userPayload.getUsername());
 		response.then().log().all();
 	
 		Assert.assertEquals(response.statusCode(), 200);
