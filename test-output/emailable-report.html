@@ -9,88 +9,15 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">17,988</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13,477</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">api.test.StoreDataDrivenTests</td><td><a href="#m0">testGetOrderById</a></td><td rowspan="2">1751976198424</td><td rowspan="2">1403</td></tr><tr class="failedeven"><td><a href="#m1">testGetOrderById</a></td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">api.test.StoreDataDrivenTests</td><td><a href="#m2">testDeleteOrder</a></td><td rowspan="3">1751976192577</td><td rowspan="3">1465</td></tr><tr class="passedeven"><td><a href="#m3">testDeleteOrder</a></td></tr><tr class="passedeven"><td><a href="#m4">testDeleteOrder</a></td></tr><tr class="passedeven"><td><a href="#m5">testGetOrderById</a></td><td rowspan="1">1751976197046</td><td rowspan="1">1371</td></tr><tr class="passedeven"><td><a href="#m6">testPostStore</a></td><td rowspan="3">1751976190778</td><td rowspan="3">1519</td></tr><tr class="passedeven"><td><a href="#m7">testPostStore</a></td></tr><tr class="passedeven"><td><a href="#m8">testPostStore</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">api.test.UserDataDrivenTests</td><td><a href="#m0">testDeleteUser</a></td><td rowspan="3">1751978297727</td><td rowspan="3">1418</td></tr><tr class="passedeven"><td><a href="#m1">testDeleteUser</a></td></tr><tr class="passedeven"><td><a href="#m2">testDeleteUser</a></td></tr><tr class="passedeven"><td><a href="#m3">testPostUser</a></td><td rowspan="3">1751978292039</td><td rowspan="3">1276</td></tr><tr class="passedeven"><td><a href="#m4">testPostUser</a></td></tr><tr class="passedeven"><td><a href="#m5">testPostUser</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">api.test.StoreDataDrivenTests#testGetOrderById</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>102</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [404]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1431)
-	at org.testng.Assert.assertEquals(Assert.java:1395)
-	at org.testng.Assert.assertEquals(Assert.java:1441)
-	at api.test.StoreDataDrivenTests.testGetOrderById(StoreDataDrivenTests.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">api.test.StoreDataDrivenTests#testGetOrderById</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>103</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [404]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1431)
-	at org.testng.Assert.assertEquals(Assert.java:1395)
-	at org.testng.Assert.assertEquals(Assert.java:1441)
-	at api.test.StoreDataDrivenTests.testGetOrderById(StoreDataDrivenTests.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">api.test.StoreDataDrivenTests#testDeleteOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>101</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">api.test.StoreDataDrivenTests#testDeleteOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>102</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">api.test.StoreDataDrivenTests#testDeleteOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>103</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">api.test.StoreDataDrivenTests#testGetOrderById</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>101</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">api.test.StoreDataDrivenTests#testPostStore</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>103</td><td>3</td><td>3</td><td>2025-07-02T06:40:12.349Z</td><td>cancelled</td><td>TRUE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">api.test.StoreDataDrivenTests#testPostStore</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>101</td><td>1</td><td>1</td><td>2025-06-30T06:40:12.349Z</td><td>placed</td><td>TRUE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">api.test.StoreDataDrivenTests#testPostStore</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>102</td><td>2</td><td>2</td><td>2025-07-01T06:40:12.349Z</td><td>misplaced</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">api.test.UserDataDrivenTests#testDeleteUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>testuser3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">api.test.UserDataDrivenTests#testDeleteUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>testuser1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">api.test.UserDataDrivenTests#testDeleteUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>testuser2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">api.test.UserDataDrivenTests#testPostUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>1020</td><td>testuser2</td><td>Kim</td><td>Kom</td><td>b@gmail.com</td><td>test@2</td><td>1234567890</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">api.test.UserDataDrivenTests#testPostUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>1010</td><td>testuser1</td><td>John</td><td>Canedy</td><td>a@gmail.com</td><td>test@1</td><td>1234567890</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">api.test.UserDataDrivenTests#testPostUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>1030</td><td>testuser3</td><td>Smith</td><td>Steve</td><td>c@gmail.com</td><td>test@3</td><td>1234567890</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
