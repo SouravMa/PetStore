@@ -14,7 +14,7 @@ import io.restassured.response.Response;
 
 public class UserDataDrivenTests {	
 
-//	@Test(priority=1, dataProvider= "Data", dataProviderClass= DataProviders.class)
+	@Test(priority=1, dataProvider= "Data", dataProviderClass= DataProviders.class)
 	public void testPostUser(String userId, String userName, String firstName, String lastName, String emaiId, String password, String phone) {
 		
 		User userPayload= new User();
@@ -27,6 +27,7 @@ public class UserDataDrivenTests {
 		userPayload.setPhone(phone);
 		
 		Response response= UserEndpoints.createUser(userPayload);
+		response.then().log().all();
 		
 		AssertJUnit.assertEquals(response.statusCode(), 200);
 	}
@@ -35,6 +36,7 @@ public class UserDataDrivenTests {
 	public void testDeleteUser(String userName) {
 
 		Response response= UserEndpoints.deleteUser(userName);
+		response.then().log().all();
 		
 		AssertJUnit.assertEquals(response.statusCode(), 200);
 

@@ -41,7 +41,7 @@ public class DataProviders {
 			 int totalRows= xlUtil.getRowCount("Sheet1");
 			 int totalCols= xlUtil.getCellCount("Sheet1", 1);
 			 String apiData[][]= new String[totalRows][totalCols];
-			 for(int i=0; i<= totalRows; i++) {
+			 for(int i=1; i<= totalRows; i++) {
 				 for(int j=0; j<totalCols; j++) {
 					 apiData[i-1][j]= xlUtil.getCellData("Sheet1", i, j);
 				 }

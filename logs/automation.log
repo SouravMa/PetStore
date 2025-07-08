@@ -87,3 +87,33 @@
 15:52:00.588 [main] INFO  api.test.PetsTests1 - ***** Pet details fetched *****
 15:52:00.593 [main] INFO  api.test.PetsTests1 - ***** Deleting pet details by id *****
 15:52:01.990 [main] INFO  api.test.PetsTests1 - ***** Pet details deleted *****
+15:53:53.774 [main] INFO  api.test.PetsTests1 - ***** Adding pet details *****
+15:53:58.973 [main] INFO  api.test.PetsTests1 - ***** Pet details added *****
+15:53:58.997 [main] INFO  api.test.PetsTests1 - ***** Fetching pet details by id *****
+15:54:00.721 [main] INFO  api.test.PetsTests1 - ***** Deleting pet details by id *****
+15:54:02.129 [main] INFO  api.test.PetsTests2 - ***** Adding pet details *****
+15:54:03.750 [main] INFO  api.test.PetsTests2 - ***** Pet details added *****
+15:54:03.767 [main] INFO  api.test.PetsTests2 - ***** Fetching pet details by id *****
+15:54:05.262 [main] INFO  api.test.PetsTests2 - ***** Deleting pet details by id *****
+15:55:05.411 [main] INFO  api.test.UserTests - ***** Creating User *****
+15:55:10.576 [main] INFO  api.test.UserTests - ***** User is created *****
+15:55:10.608 [main] INFO  api.test.UserTests - ***** Reading User Info*****
+15:55:12.312 [main] INFO  api.test.UserTests - ***** Updating User *****
+15:55:13.658 [main] INFO  api.test.UserTests - ***** User updated successfully *****
+15:55:15.203 [main] INFO  api.test.UserTests - ***** Deleting User *****
+15:55:16.664 [main] INFO  api.test.UserTests - ***** User deleted successfully *****
+16:02:30.422 [main] INFO  api.test.UserTests - ***** Creating User *****
+16:02:35.622 [main] INFO  api.test.UserTests - ***** User is created *****
+16:02:35.653 [main] INFO  api.test.UserTests - ***** Reading User Info*****
+16:02:37.460 [main] INFO  api.test.UserTests - ***** User info fetched successfully *****
+16:02:37.468 [main] INFO  api.test.UserTests - ***** Updating User *****
+16:02:38.864 [main] INFO  api.test.UserTests - ***** User updated successfully *****
+16:02:40.254 [main] INFO  api.test.UserTests - ***** Deleting User *****
+16:02:41.555 [main] INFO  api.test.UserTests - ***** User deleted successfully *****
+16:03:34.021 [main] INFO  api.test.UserTests - ***** Creating User *****
+16:03:39.072 [main] INFO  api.test.UserTests - ***** User is created *****
+16:03:39.102 [main] INFO  api.test.UserTests - ***** Reading User Info*****
+16:03:40.875 [main] INFO  api.test.UserTests - ***** Updating User *****
+16:03:42.382 [main] INFO  api.test.UserTests - ***** User updated successfully *****
+16:03:42.383 [main] INFO  api.test.UserTests - ***** Verifying user details after update *****
+16:03:43.939 [main] INFO  api.test.UserTests - ***** Deleting User *****

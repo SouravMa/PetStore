@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="api.utilities.ExtentReportsManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="api.test.PetsTests2">
+        <methods>
+          <include name="setup"/>
+          <include name="deletePetById"/>
+          <include name="getPetById"/>
+        </methods>
+      </class> <!-- api.test.PetsTests2 -->
+      <class name="api.test.PetsTests1">
+        <methods>
+          <include name="deletePetById"/>
+          <include name="setup"/>
+          <include name="getPetById"/>
+        </methods>
+      </class> <!-- api.test.PetsTests1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
