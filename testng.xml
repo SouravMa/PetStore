@@ -7,9 +7,12 @@
 
   <test thread-count="5" name="Test">
     <classes>
-      <!--<class name="api.test.DataDrivenTests"/> -->
       <!--<class name="api.test.UserTests"/> -->
-      <class name="api.test.UserTests2"/> 
+      <!--<class name="api.test.UserTests2"/> -->
+      <!--<class name="api.test.StoreTests1"/> -->
+      <!--<class name="api.test.StoreTests2"/> -->
+      <class name="api.test.PetTests1"/> -->
+      <class name="api.test.PetTests2"/>
     </classes>
   </test> 
 </suite> 

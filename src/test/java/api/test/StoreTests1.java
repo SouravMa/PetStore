@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
+import api.endpoints.Routes;
 import api.endpoints.StoreEndpoints1;
 import api.payload.Store;
 import io.restassured.module.jsv.JsonSchemaValidator;

@@ -1,15 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.31 s <<< FAILURE! -- in TestSuite
-api.test.UserTests2.testGetUser -- Time elapsed: 1.483 s <<< FAILURE!
-java.lang.AssertionError: expected:<404> but was:<200>
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
-	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:467)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:318)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:328)
-	at api.test.UserTests2.testGetUser(UserTests2.java:61)
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.99 s <<< FAILURE! -- in TestSuite
+api.test.StoreTests1.testDeleteOrderByOrderId -- Time elapsed: 1.467 s <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1395)
+	at org.testng.Assert.assertEquals(Assert.java:1441)
+	at api.test.StoreTests1.testDeleteOrderByOrderId(StoreTests1.java:87)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)

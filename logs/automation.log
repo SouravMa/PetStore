@@ -1,1 +1,78 @@
 11:15:13.981 [main] INFO  api.test.UserTests - ***** User deleted successfully *****
+13:03:25.558 [main] INFO  api.test.PetsTests1 - ***** Adding pet details *****
+13:03:30.840 [main] INFO  api.test.PetsTests1 - ***** Pet details added *****
+13:03:30.865 [main] INFO  api.test.PetsTests1 - ***** Fetching pet details by id *****
+13:03:32.452 [main] INFO  api.test.PetsTests1 - ***** Deleting pet details by id *****
+13:34:56.001 [main] INFO  api.test.StoreTests1 - ***** Creating Order *****
+13:35:01.605 [main] INFO  api.test.StoreTests1 - ***** Order is placed *****
+13:35:01.627 [main] INFO  api.test.StoreTests1 - ***** Fetching Order *****
+13:35:03.275 [main] INFO  api.test.StoreTests1 - ***** Order fetched *****
+13:35:03.282 [main] INFO  api.test.StoreTests1 - ***** Fetching pet inventory *****
+13:35:04.773 [main] INFO  api.test.StoreTests1 - ***** Pet inventory fetched *****
+13:35:04.783 [main] INFO  api.test.StoreTests1 - ***** Deleting Order *****
+13:36:41.115 [main] INFO  api.test.StoreTests1 - ***** Creating Order *****
+13:36:46.809 [main] INFO  api.test.StoreTests1 - ***** Order is placed *****
+13:36:46.835 [main] INFO  api.test.StoreTests1 - ***** Fetching Order *****
+13:36:48.582 [main] INFO  api.test.StoreTests1 - ***** Order fetched *****
+13:36:48.586 [main] INFO  api.test.StoreTests1 - ***** Fetching pet inventory *****
+13:36:50.034 [main] INFO  api.test.StoreTests1 - ***** Pet inventory fetched *****
+13:36:50.039 [main] INFO  api.test.StoreTests1 - ***** Deleting Order *****
+13:45:09.556 [main] INFO  api.test.StoreTests1 - ***** Creating Order *****
+13:45:15.126 [main] INFO  api.test.StoreTests1 - ***** Order is placed *****
+13:45:15.151 [main] INFO  api.test.StoreTests1 - ***** Fetching Order *****
+13:45:16.747 [main] INFO  api.test.StoreTests1 - ***** Order fetched *****
+13:45:16.755 [main] INFO  api.test.StoreTests1 - ***** Fetching pet inventory *****
+13:45:18.219 [main] INFO  api.test.StoreTests1 - ***** Pet inventory fetched *****
+13:45:18.228 [main] INFO  api.test.StoreTests1 - ***** Deleting Order *****
+13:45:19.820 [main] INFO  api.test.StoreTests1 - ***** Order deleted *****
+13:45:33.372 [main] INFO  api.test.StoreTests1 - ***** Creating Order *****
+13:45:38.936 [main] INFO  api.test.StoreTests1 - ***** Order is placed *****
+13:45:38.960 [main] INFO  api.test.StoreTests1 - ***** Fetching Order *****
+13:45:40.525 [main] INFO  api.test.StoreTests1 - ***** Order fetched *****
+13:45:40.534 [main] INFO  api.test.StoreTests1 - ***** Fetching pet inventory *****
+13:45:41.996 [main] INFO  api.test.StoreTests1 - ***** Pet inventory fetched *****
+13:45:42.007 [main] INFO  api.test.StoreTests1 - ***** Deleting Order *****
+13:46:27.016 [main] INFO  api.test.StoreTests2 - ***** Creating Order *****
+13:46:32.507 [main] INFO  api.test.StoreTests2 - ***** Order is placed *****
+13:46:32.535 [main] INFO  api.test.StoreTests2 - ***** Fetching Order *****
+13:46:34.270 [main] INFO  api.test.StoreTests2 - ***** Fetching store inventory *****
+13:46:35.679 [main] INFO  api.test.StoreTests2 - ***** Pet inventory fetched *****
+13:46:35.690 [main] INFO  api.test.StoreTests2 - ***** Deleting Order *****
+13:46:37.301 [main] INFO  api.test.StoreTests2 - ***** Order deleted *****
+14:05:12.282 [main] INFO  api.test.StoreTests1 - ***** Creating Order *****
+14:05:17.939 [main] INFO  api.test.StoreTests1 - ***** Order is placed *****
+14:05:17.976 [main] INFO  api.test.StoreTests1 - ***** Fetching Order *****
+14:05:19.393 [main] INFO  api.test.StoreTests1 - ***** Order fetched *****
+14:05:19.400 [main] INFO  api.test.StoreTests1 - ***** Fetching pet inventory *****
+14:05:20.863 [main] INFO  api.test.StoreTests1 - ***** Pet inventory fetched *****
+14:05:20.869 [main] INFO  api.test.StoreTests1 - ***** Deleting Order *****
+14:05:22.425 [main] INFO  api.test.StoreTests1 - ***** Order deleted *****
+14:09:48.572 [main] INFO  api.test.StoreTests1 - ***** Creating Order *****
+14:09:54.267 [main] INFO  api.test.StoreTests1 - ***** Order is placed *****
+14:09:54.292 [main] INFO  api.test.StoreTests1 - ***** Fetching Order *****
+14:09:55.940 [main] INFO  api.test.StoreTests1 - ***** Order fetched *****
+14:09:55.950 [main] INFO  api.test.StoreTests1 - ***** Fetching pet inventory *****
+14:09:57.404 [main] INFO  api.test.StoreTests1 - ***** Pet inventory fetched *****
+14:09:57.412 [main] INFO  api.test.StoreTests1 - ***** Deleting Order *****
+14:30:40.630 [main] INFO  api.test.PetsTests1 - ***** Adding pet details *****
+14:30:47.260 [main] INFO  api.test.PetsTests1 - ***** Pet details added *****
+14:30:47.283 [main] INFO  api.test.PetsTests1 - ***** Fetching pet details by id *****
+14:30:48.942 [main] INFO  api.test.PetsTests1 - ***** Pet details fetched *****
+14:30:48.953 [main] INFO  api.test.PetsTests1 - ***** Deleting pet details by id *****
+14:30:50.360 [main] INFO  api.test.PetsTests1 - ***** Pet details deleted *****
+15:42:02.348 [main] INFO  api.test.PetsTests1 - ***** Adding pet details *****
+15:42:06.440 [main] INFO  api.test.PetsTests1 - ***** Fetching pet details by id *****
+15:42:08.065 [main] INFO  api.test.PetsTests1 - ***** Deleting pet details by id *****
+15:42:09.560 [main] INFO  api.test.PetsTests1 - ***** Pet details deleted *****
+15:42:31.412 [main] INFO  api.test.PetsTests1 - ***** Adding pet details *****
+15:42:36.859 [main] INFO  api.test.PetsTests1 - ***** Pet details added *****
+15:42:36.882 [main] INFO  api.test.PetsTests1 - ***** Fetching pet details by id *****
+15:42:38.361 [main] INFO  api.test.PetsTests1 - ***** Pet details fetched *****
+15:42:38.373 [main] INFO  api.test.PetsTests1 - ***** Deleting pet details by id *****
+15:42:39.654 [main] INFO  api.test.PetsTests1 - ***** Pet details deleted *****
+15:43:48.363 [main] INFO  api.test.PetsTests2 - ***** Adding pet details *****
+15:43:53.788 [main] INFO  api.test.PetsTests2 - ***** Pet details added *****
+15:43:53.809 [main] INFO  api.test.PetsTests2 - ***** Fetching pet details by id *****
+15:43:55.375 [main] INFO  api.test.PetsTests2 - ***** Pet details fetched *****
+15:43:55.388 [main] INFO  api.test.PetsTests2 - ***** Deleting pet details by id *****
+15:43:57.003 [main] INFO  api.test.PetsTests2 - ***** Pet details deleted *****
