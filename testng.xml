@@ -11,8 +11,8 @@
       <!--<class name="api.test.UserTests2"/> -->
       <!--<class name="api.test.StoreTests1"/> -->
       <!--<class name="api.test.StoreTests2"/> -->
-      <class name="api.test.PetTests1"/> -->
-      <class name="api.test.PetTests2"/>
+      <class name="api.test.PetsTests1"/>
+      <class name="api.test.PetsTests2"/> 
     </classes>
   </test> 
 </suite> 

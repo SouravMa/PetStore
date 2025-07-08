@@ -76,3 +76,14 @@
 15:43:55.375 [main] INFO  api.test.PetsTests2 - ***** Pet details fetched *****
 15:43:55.388 [main] INFO  api.test.PetsTests2 - ***** Deleting pet details by id *****
 15:43:57.003 [main] INFO  api.test.PetsTests2 - ***** Pet details deleted *****
+15:51:14.314 [main] INFO  api.test.PetsTests1 - ***** Adding pet details *****
+15:51:19.769 [main] INFO  api.test.PetsTests1 - ***** Pet details added *****
+15:51:19.799 [main] INFO  api.test.PetsTests1 - ***** Fetching pet details by id *****
+15:51:21.438 [main] INFO  api.test.PetsTests1 - ***** Pet details fetched *****
+15:51:21.450 [main] INFO  api.test.PetsTests1 - ***** Deleting pet details by id *****
+15:51:53.287 [main] INFO  api.test.PetsTests1 - ***** Adding pet details *****
+15:51:58.760 [main] INFO  api.test.PetsTests1 - ***** Pet details added *****
+15:51:58.784 [main] INFO  api.test.PetsTests1 - ***** Fetching pet details by id *****
+15:52:00.588 [main] INFO  api.test.PetsTests1 - ***** Pet details fetched *****
+15:52:00.593 [main] INFO  api.test.PetsTests1 - ***** Deleting pet details by id *****
+15:52:01.990 [main] INFO  api.test.PetsTests1 - ***** Pet details deleted *****
