@@ -11,10 +11,10 @@
       <!--<class name="api.test.UserTests2"/> -->
       <!--<class name="api.test.StoreTests1"/> -->
       <!--<class name="api.test.StoreTests2"/> -->
-      <!--<class name="api.test.PetsTests1"/> -->
+      <class name="api.test.PetsTests1"/>
       <!--<class name="api.test.PetsTests2"/> -->
       <!--<class name="api.test.UserDataDrivenTests"/> -->
-      <class name="api.test.StoreDataDrivenTests"/>
+      <!-- <class name="api.test.StoreDataDrivenTests"/> -->
     </classes>
   </test> 
 </suite> 

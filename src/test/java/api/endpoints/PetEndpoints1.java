@@ -1,8 +1,6 @@
 package api.endpoints;
 
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
 
 import api.payload.Pets;
 import io.restassured.http.ContentType;
@@ -31,7 +29,7 @@ public class PetEndpoints1 {
 					.pathParam("petId", String.valueOf(petId))
 				.when()
 					.get(Routes.getPetUrl);
-		
+
 		return response;		
 	}
 	

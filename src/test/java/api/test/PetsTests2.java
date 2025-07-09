@@ -70,7 +70,7 @@ public class PetsTests2 {
 		logger.info("***** Pet details added *****");
 	}
 	
-	@Test(priority= 2)
+//	@Test(priority= 2)
 	public void getPetById() {
 		
 		logger.info("***** Fetching pet details by id *****");

@@ -7,6 +7,7 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -57,10 +58,14 @@ public class PetsTests1 {
 	}
 	
 	@Test(priority= 1)
-	public void testPostPet() {
+	public void testPostPet(ITestContext context) {
 		
 		logger.info("***** Adding pet details *****");
 		Response response= PetEndpoints1.postPet(petsPayload);
+		
+		int petId= response.jsonPath().getInt("id");
+		context.getSuite().setAttribute("petId", petId);
+		
 		response.then().log().all();
 		
 		Assert.assertEquals(response.statusCode(), 200);
@@ -69,10 +74,12 @@ public class PetsTests1 {
 	}
 	
 	@Test(priority= 2)
-	public void getPetById() {
+	public void getPetById(ITestContext context) {
+		
+		int petId= (int) context.getSuite().getAttribute("petId");
 		
 		logger.info("***** Fetching pet details by id *****");
-		Response response= PetEndpoints1.getPetById(petsPayload.getId());
+		Response response= PetEndpoints1.getPetById(petId);
 		System.out.println(petsPayload.getId());
 		response.then().log().all();
 		
@@ -83,10 +90,12 @@ public class PetsTests1 {
 	}
 	
 	@Test(priority= 3)
-	public void deletePetById() {
+	public void deletePetById(ITestContext context) {
+		
+		int petId= (int) context.getSuite().getAttribute("petId");
 		
 		logger.info("***** Deleting pet details by id *****");
-		Response response= PetEndpoints1.deletePetById(petsPayload.getId());
+		Response response= PetEndpoints1.deletePetById(petId);
 		System.out.println(petsPayload.getId());
 		response.then().log().all();
 		
